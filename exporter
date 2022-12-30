@@ -2027,7 +2027,7 @@
 </pre>
 <p dir="auto">Tested on Apache 2.2 and Apache 2.4.</p>
 <p dir="auto">If your server-status page is secured by http auth, add the credentials to the scrape URL following this example:</p>
-<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="http://13.234.120.95/server-status?auto"><pre class="notranslate"><code>http://user:password@localhost/server-status?auto
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="http://13.234.120.95/server-status?auto"><pre class="notranslate"><code>http://13.234.120.95/server-status?auto
 </code></pre></div>
 <p dir="auto">Override host name by runnning</p>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="./apache_exporter --host_override=example.com"><pre class="notranslate"><code>./apache_exporter --host_override=example.com
